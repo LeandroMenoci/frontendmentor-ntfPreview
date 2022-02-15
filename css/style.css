@@ -1,0 +1,114 @@
+:root {
+  --Soft-blue: hsl(215, 51%, 70%);
+  --Cyan: hsl(178, 100%, 50%);
+  --very-dark-blue-main: hsl(217, 54%, 11%);
+  --very-dark-blue-card: hsl(216, 50%, 16%);
+  --very-dark-blue-line: hsl(215, 32%, 27%);
+  --White: hsl(0, 0%, 100%);
+  --font-outfit: "Outfit", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: var(--very-dark-blue-main);
+  color: aliceblue;
+  font-family: var(--font-outfit);
+}
+
+.main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 300px;
+  border-radius: 10px;
+  background: var(--very-dark-blue-card);
+  box-shadow: 0 0 100px black;
+}
+
+.nft {
+  width: 260px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.title {
+  font-size: 20px;
+  margin: 0 20px;
+}
+
+.text-1 {
+  margin: 10px 20px;
+  font-size: 14px;
+  color: var(--Soft-blue);
+}
+
+.ethereum {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 20px 10px 20px;
+}
+
+.svg-ethereum {
+  display: flex;
+}
+
+.svg_ethereum--img {
+  margin-right: 4px;
+}
+.text-2 {
+  color: var(--Cyan);
+  font-size: 12px;
+  font-weight: 700;
+  padding: 2px;
+}
+
+.svg_days {
+  display: flex;
+}
+
+.svg_days--img {
+  margin-right: 4px;
+}
+
+.text-3 {
+  font-size: 12px;
+  padding: 2px;
+  color: var(--Soft-blue);
+}
+
+.divider {
+  height: 2px;
+  background: var(--very-dark-blue-line);
+  margin: 20px;
+}
+
+.creation {
+  display: flex;
+}
+
+.avatar {
+  margin: 0 10px 20px 20px;
+  width: 30px;
+  border: 2px solid #fff;
+  border-radius: 50px;
+}
+
+.text-4 {
+  font-size: 12px;
+  margin: 10px 0;
+  color: var(--Soft-blue);
+}
+
+.text-4 span {
+  color: var(--White);
+}
